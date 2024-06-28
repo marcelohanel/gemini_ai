@@ -2,7 +2,7 @@ import pandas as pd
 import google.generativeai as genai
 
 pergunta = ""
-genai.configure(api_key="AIzaSyCedQZrf-UTezu3H7vch4Ply7h_RUHJBAA")
+genai.configure(api_key="")
 
 df = pd.read_excel("kpi013d.xlsx")
 df_csv = df.to_csv("kpi013d.csv", index=False)
