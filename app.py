@@ -17,8 +17,8 @@ model = genai.GenerativeModel(
     model_name="gemini-1.5-pro-latest",
     generation_config=genai.GenerationConfig(
         temperature=0.0,
-        top_k=0.0,
-        top_p=0.0,
+        top_k=0.1,
+        top_p=0.1,
         #max_output_tokens=8096,
         response_mime_type="text/plain"
     ),
